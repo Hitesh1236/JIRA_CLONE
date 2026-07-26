@@ -1,0 +1,60 @@
+.add-task-container {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 24px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.add-task-container h2 {
+  margin-bottom: 20px;
+  color: #172b4d;
+}
+
+.task-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.task-form input,
+.task-form textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #dfe1e6;
+  border-radius: 8px;
+  font-size: 14px;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.task-form input:focus,
+.task-form textarea:focus {
+  border-color: #0052cc;
+}
+
+.task-form textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.task-form button {
+  background: #0052cc;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.task-form button:hover {
+  background: #0747a6;
+}
+
+.error {
+  color: #de350b;
+  font-size: 14px;
+}
