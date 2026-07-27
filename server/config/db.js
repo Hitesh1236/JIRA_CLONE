@@ -1,4 +1,5 @@
 import dns from "node:dns/promises";
+import mongoose from "mongoose";
 
 export const connectDB = async () => {
   try {
