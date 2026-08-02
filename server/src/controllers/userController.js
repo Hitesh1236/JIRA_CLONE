@@ -1,6 +1,6 @@
 import User from "../models/UserSchema.js";
 import jwt from "jsonwebtoken";
-import generateToken from "../../utility/generateToken.js";
+import generateToken from "../utility/generateToken.js";
 import bcrypt from "bcryptjs";
 import AppError from "../services/AppError.js";
 
